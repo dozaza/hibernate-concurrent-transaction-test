@@ -1,0 +1,8 @@
+<ehcache>
+	<diskStore path="java.io.tmpdir" />
+	<defaultCache  timeToIdleSeconds="1800" timeToLiveSeconds="1800" statistics="true" />
+	<cache name="com.datayes.pms.entity.Book"  eternal="true"
+		statistics="true" />
+	<cache name="com.datayes.pms.entity.Reader"  eternal="true"
+		statistics="true" />
+</ehcache>
